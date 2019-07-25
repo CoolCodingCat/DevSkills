@@ -4,3 +4,6 @@ body {
 .navbar-item {
     font-weight: bold
 }
+.dim {
+    opacity: 0.2;
+}
