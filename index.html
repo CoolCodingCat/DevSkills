@@ -1,7 +1,7 @@
 <!-- Bienvenue aux curieux qui parcourent ce document.
 Ceci est un site CV.
 Je suis, en effet, en recherche d'emploi de développeur web, dans la zone de Rennes
-alors si ce mini-site vous a plus, j'hesitez pas à prendre contact.
+alors si ce mini-site vous a plu, j'hesitez pas à prendre contact.
 Lisa -->
 
 
@@ -109,17 +109,17 @@ Lisa -->
                                             </div>
                                         </nav>
                                     </article>
-                                    <article class="tile is-child notification is-warning box dim">
-                                        <p class="title is-uppercase">ANGLAIS</p>
+                                    <article class="tile is-child notification is-warning box" id="box-anglais">
+                                        <p class="title is-uppercase label-anglais">ANGLAIS</p>
                                         <nav class="level is-mobile">
                                             <div class="level-left button">
                                                 <a class="level-item">
                                                 <span class="icon is-small" data-tippy="Bilingue - Niveau C2"><i class="fas fa-question"></i></span>
                                                 </a>
                                             </div>
-                                            <div class="level-right button">
+                                            <div class="level-right button" id="anglais">
                                                     <a class="level-item">
-                                                    <span class="icon is-small"><i class="fas fa-cart-plus"></i></span>
+                                                    <span class="icon is-small"><i class="fas fa-cart-plus" ></i></span>
                                                     </a>
                                             </div>
                                         </nav>
@@ -286,8 +286,11 @@ Lisa -->
                                             <div class="content">
                                             <p class="title is-uppercase">Panier</p>
                                             <p class="subtitle">With even more content</p>
-                                            <div class="content">
-                                                <!-- Content -->
+                                            <div class="content" id="cart-content">
+                                                <ul id="unorderedList">
+                                                    <!-- Cart Content -->
+                                                </ul>
+                                                
                                             </div>
                                             </div>
                                         </article>
@@ -323,5 +326,6 @@ Lisa -->
                 delay: [1,500]
             })
           </script>
+          <script src="./js/scripts.js"></script>
 </body>
 </html>
